@@ -1,0 +1,12 @@
+
+=== lfm2.5-8b-a1b-new threads=4 ctx=8192 ===
+pp=55.18 tok/s, pg=22.77 tok/s, eval=512 tok
+
+=== lfm2.5-8b-a1b-new threads=8 ctx=8192 ===
+pp=88.02 tok/s, pg=25.05 tok/s, eval=512 tok
+
+=== lfm2-8b-a1b-old threads=4 ctx=8192 ===
+pp=57.78 tok/s, pg=22.87 tok/s, eval=512 tok
+
+=== lfm2-8b-a1b-old threads=8 ctx=8192 ===
+pp=88.81 tok/s, pg=25.0 tok/s, eval=512 tok
