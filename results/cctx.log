@@ -1,0 +1,17 @@
+[hf.co/LiquidAI/LFM2.5-8B-A1B-GGUF:Q4_K_M] ctx=16384 measuring... ctx=16384 prefill=88.32 tok/s gen=24.51 tok/s ttft=951.2ms eval=256
+  appended
+[lfm2.5-1.2b-16k] ctx=16384 measuring... ctx=16384 prefill=235.08 tok/s gen=39.79 tok/s ttft=431.2ms eval=256
+  appended
+[gemma3-4b-16k] ctx=16384 measuring... ctx=16384 prefill=68.73 tok/s gen=13.0 tok/s ttft=1335.1ms eval=256
+  appended
+[qwen3.5-4b-16k] ctx=16384 measuring... ctx=16384 prefill=56.18 tok/s gen=11.47 tok/s ttft=1325.0ms eval=256
+  appended
+[qwen2.5-7b-16k] ctx=16384 measuring... ctx=16384 prefill=71.15 tok/s gen=8.05 tok/s ttft=1209.1ms eval=256
+  appended
+[phi4-mini-8k] ctx=8192 measuring... ctx=8192 prefill=78.22 tok/s gen=13.59 tok/s ttft=869.3ms eval=256
+  appended
+[qwen3-8b-16k] ctx=16384 measuring... ctx=16384 prefill=39.46 tok/s gen=7.37 tok/s ttft=1197.2ms eval=256
+  appended
+[qwen3-8b-unsloth-16k] ctx=16384 measuring... ctx=16384 prefill=30.48 tok/s gen=7.43 tok/s ttft=1495.7ms eval=256
+  appended
+done
