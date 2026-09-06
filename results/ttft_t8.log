@@ -1,0 +1,32 @@
+=== TTFT + prefill sweep: 8 threads, 2048 ctx ===
+  [driaforall/tiny-agent-a:0.5b] warm, measuring ... ttft=479.2ms, prefill=532.65 tok/s, gen=54.1 tok/s (eval=185 tok)
+  appended
+  [LiquidAI/lfm2.5-350m:latest] warm, measuring ... ttft=253.4ms, prefill=739.57 tok/s, gen=76.47 tok/s (eval=209 tok)
+  appended
+  [qwen3.5:0.8b] warm, measuring ... ttft=918.7ms, prefill=254.58 tok/s, gen=31.27 tok/s (eval=512 tok)
+  appended
+  [LiquidAI/lfm2.5-1.2b-instruct:latest] warm, measuring ... ttft=467.7ms, prefill=233.24 tok/s, gen=39.23 tok/s (eval=338 tok)
+  appended
+  [qwen2.5:1.5b] warm, measuring ... ttft=615.2ms, prefill=304.8 tok/s, gen=28.57 tok/s (eval=512 tok)
+  appended
+  [phi4-mini:latest] warm, measuring ... ttft=838.6ms, prefill=77.23 tok/s, gen=13.05 tok/s (eval=504 tok)
+  appended
+  [phi4-mini-reasoning:latest] warm, measuring ... ttft=1029.4ms, prefill=126.15 tok/s, gen=11.1 tok/s (eval=512 tok)
+  appended
+  [qwen3.5:4b] warm, measuring ... ttft=1326.6ms, prefill=57.21 tok/s, gen=11.67 tok/s (eval=512 tok)
+  appended
+  [gemma3:4b] warm, measuring ... ttft=1259.6ms, prefill=73.24 tok/s, gen=13.1 tok/s (eval=512 tok)
+  appended
+  [qwen2.5:7b] warm, measuring ... ttft=1228.4ms, prefill=71.73 tok/s, gen=8.16 tok/s (eval=512 tok)
+  appended
+  [qwen3:latest] warm, measuring ... ttft=1182.2ms, prefill=39.55 tok/s, gen=7.27 tok/s (eval=512 tok)
+  appended
+  [hf.co/unsloth/Qwen3-8B-GGUF:UD-Q4_K_XL] warm, measuring ... ttft=1316.7ms, prefill=30.23 tok/s, gen=7.31 tok/s (eval=512 tok)
+  appended
+  [qwen3-8b-unsloth-instruct] warm, measuring ... ttft=1466.4ms, prefill=30.5 tok/s, gen=7.34 tok/s (eval=512 tok)
+  appended
+  [hf.co/LiquidAI/LFM2.5-8B-A1B-GGUF:Q4_K_M] warm, measuring ... ttft=803.7ms, prefill=88.56 tok/s, gen=24.62 tok/s (eval=512 tok)
+  appended
+  [lfm2.5:latest] warm, measuring ... ttft=850.1ms, prefill=88.8 tok/s, gen=24.5 tok/s (eval=512 tok)
+  appended
+done

@@ -9,18 +9,18 @@ Benchmarks for running local LLMs on an **Orange Pi 6 Plus** (CIX P1 CD8160 SoC,
 
 ## TL;DR
 
-| Model | Size | Threads | Gen (tok/s) | Notes |
-|---|---|---|---|---|
-| **LFM2.5-8B-A1B Q4_K_M** | 5.2 GB | 8 | **25.0** | Best overall: reasoning + tools, 3.4x faster than Qwen3-8B |
-| Qwen3-8B unsloth UD-Q4_K_XL | 5.1 GB | 8 | 7.3 | Best absolute quality, slow |
-| qwen3:latest (official 8B) | 5.2 GB | 8 | 7.2 | Same class as unsloth, no speed edge |
-| qwen2.5:7b | 4.7 GB | 8 | 8.1 | Solid all-rounder |
-| phi4-mini | 2.5 GB | 8 | 13.5 | Good token/memory ratio |
-| qwen3.5:4b | 3.4 GB | 8 | 11.7 | 4B reasoning, sadly slow |
-| lfm2.5-350m | 379 MB | 8 | 78.5 | Fastest small model |
-| LiquidAI/lfm2.5-1.2b | 730 MB | 8 | 38.8 | Best small all-rounder |
+| Model | Size | Prefill (tok/s) | Gen (tok/s) | TTFT (ms) | Notes |
+|---|---|---:|---:|---:|---|
+| **LFM2.5-8B-A1B Q4_K_M** | 5.2 GB | 88.6 | **24.6** | **804** | Best overall: reasoning + tools, 3.4x faster than Qwen3-8B |
+| Qwen3-8B unsloth UD-Q4_K_XL | 5.1 GB | 30.5 | 7.3 | 1466 | Best absolute quality, slow |
+| qwen3:latest (official 8B) | 5.2 GB | 39.6 | 7.3 | 1182 | Same class as unsloth |
+| qwen2.5:7b | 4.7 GB | 71.7 | 8.1 | 1228 | Solid all-rounder |
+| phi4-mini | 2.5 GB | 77.2 | 13.1 | 839 | Good token/memory ratio |
+| qwen3.5:4b | 3.4 GB | 57.2 | 11.7 | 1327 | 4B reasoning |
+| lfm2.5-350m | 379 MB | 740.0 | 76.5 | 253 | Fastest small model |
+| LiquidAI/lfm2.5-1.2b | 730 MB | 233.2 | 39.2 | 468 | Best small all-rounder |
 
-All numbers at 8 threads / 2048 ctx (the measured sweet spot). 8 threads beats 4 on every model, most (+20%) on the 8B class.
+All numbers at 8 threads / 2048 ctx (measured sweet spot). TTFT = warm time to first token (model preloaded).
 
 ## Key findings
 
