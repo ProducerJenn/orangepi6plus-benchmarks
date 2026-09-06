@@ -1,0 +1,32 @@
+=== Full model sweep: 8 threads, 2048 ctx ===
+  [driaforall/tiny-agent-a:0.5b] threads=8 ctx=2048 ... pp=580.96 tok/s, pg=50.57 tok/s, eval=351 tok, wall=9.8s
+  appended
+  [LiquidAI/lfm2.5-350m:latest] threads=8 ctx=2048 ... pp=739.73 tok/s, pg=78.5 tok/s, eval=205 tok, wall=4.5s
+  appended
+  [qwen3.5:0.8b] threads=8 ctx=2048 ... pp=251.8 tok/s, pg=31.84 tok/s, eval=512 tok, wall=21.9s
+  appended
+  [LiquidAI/lfm2.5-1.2b-instruct:latest] threads=8 ctx=2048 ... pp=226.44 tok/s, pg=38.84 tok/s, eval=397 tok, wall=13.0s
+  appended
+  [qwen2.5:1.5b] threads=8 ctx=2048 ... pp=180.86 tok/s, pg=28.89 tok/s, eval=512 tok, wall=21.8s
+  appended
+  [phi4-mini:latest] threads=8 ctx=2048 ... pp=79.19 tok/s, pg=13.54 tok/s, eval=338 tok, wall=34.6s
+  appended
+  [phi4-mini-reasoning:latest] threads=8 ctx=2048 ... pp=65.08 tok/s, pg=11.04 tok/s, eval=512 tok, wall=55.7s
+  appended
+  [qwen3.5:4b] threads=8 ctx=2048 ... pp=57.02 tok/s, pg=11.72 tok/s, eval=512 tok, wall=53.2s
+  appended
+  [gemma3:4b] threads=8 ctx=2048 ... pp=72.06 tok/s, pg=13.19 tok/s, eval=512 tok, wall=48.8s
+  appended
+  [qwen2.5:7b] threads=8 ctx=2048 ... pp=41.45 tok/s, pg=8.1 tok/s, eval=512 tok, wall=75.7s
+  appended
+  [qwen3:latest] threads=8 ctx=2048 ... pp=39.43 tok/s, pg=7.21 tok/s, eval=512 tok, wall=84.9s
+  appended
+  [hf.co/unsloth/Qwen3-8B-GGUF:UD-Q4_K_XL] threads=8 ctx=2048 ... pp=30.51 tok/s, pg=7.29 tok/s, eval=512 tok, wall=81.7s
+  appended
+  [qwen3-8b-unsloth-instruct] threads=8 ctx=2048 ... pp=30.45 tok/s, pg=7.34 tok/s, eval=512 tok, wall=83.6s
+  appended
+  [hf.co/LiquidAI/LFM2.5-8B-A1B-GGUF:Q4_K_M] threads=8 ctx=2048 ... pp=87.38 tok/s, pg=25.02 tok/s, eval=512 tok, wall=31.8s
+  appended
+  [lfm2.5:latest] threads=8 ctx=2048 ... pp=88.54 tok/s, pg=24.94 tok/s, eval=512 tok, wall=31.0s
+  appended
+done
